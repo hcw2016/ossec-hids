@@ -167,6 +167,7 @@ Section "OSSEC Agent (required)" MainSec
     File /oname=shared\win_applications_rcl.txt ../rootcheck\db\win_applications_rcl.txt
     File /oname=shared\win_malware_rcl.txt ../rootcheck\db\win_malware_rcl.txt
     File /oname=shared\win_audit_rcl.txt ../rootcheck\db\win_audit_rcl.txt
+    File /oname=libpcre2-8-0.dll ../libpcre2-8-0.dll
     File help.txt
     File vista_sec.txt
     File /oname=active-response\bin\route-null.cmd route-null.cmd
